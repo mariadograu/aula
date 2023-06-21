@@ -1,0 +1,40 @@
+header {
+    background-color: #424E61;
+    color: white;
+}
+.escola{
+    background-image: linear-gradient(#424E61,#16CFF8);
+    color: white;
+}
+
+.estudante-imagem{}
+    width: 120px;
+
+.cabecalho-imagem{
+    width: 20%;
+}
+
+.cabecalho {
+    background-color: #424E61;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}  
+
+
+.cabecalho-lista-item{    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;       
+
+}
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
